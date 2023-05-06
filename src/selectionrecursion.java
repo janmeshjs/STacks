@@ -1,6 +1,6 @@
 import java.util.*;
 
-
+//recursive aproach fpr selection sort
 public class selectionrecursion {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
