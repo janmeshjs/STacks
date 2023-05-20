@@ -4,46 +4,49 @@ public class mergerecurs {
     
     public static void main(String[] args) {
         int[] arr= {4,5,6,2,3,1};
-        arr = mergesort(arr);
+        //int mid = arr.length/2;
+        mergesort(arr,0, arr.length);
         System.out.println(Arrays.toString(arr));
     }
 
-    public static int[] mergesort(int[] arr){
-        if(arr.length==1) return arr;
+    public static void mergesort(int[] arr,int start, int end){
+        if(end-start==1) return;
         
-        int mid = arr.length/2;
-        int[] left = mergesort(Arrays.copyOfRange(arr, 0, mid));
-        int[] right = mergesort(Arrays.copyOfRange(arr, mid, arr.length));
+        int mid = (start+end)/2;
+        mergesort(arr, start,mid);
+        mergesort(arr, mid, end);
 
-        return merge(left, right);
+        merge(arr, start,mid, end);
     }
 
-    public static int[] merge(int[] left, int[] right){
-        int[] mix = new int[left.length+right.length];
+    public static void merge(int[] arr, int start, int mid, int end){
+        int[] mix = new int[end-start];
 
-        int i=0; int j =0; int k=0;
-        while(i<left.length && j<right.length){
-            if(left[i]<right[j]){
-                mix[k]=left[i];
+        int i=start; int j =mid; int k=0; 
+        while(i<mid && j<end){
+            if(arr[i]<arr[j]){
+                mix[k]=arr[i];
                 i++;k++;
             }
             else{
-                mix[k]= right[j];
+                mix[k]= arr[j];
                 j++;k++;
             }
         }
 
-        while(i<left.length){ 
-            mix[k]=left[i];
+        while(i<mid){ 
+            mix[k]=arr[i];
             i++;k++;
         }
-        while(j<right.length){
-            mix[k]=right[j];
+        while(j<end){
+            mix[k]=arr[j];
             j++;k++; 
         }
 
 
-        return mix;
+        for(int p=0; p<mix.length; p++){
+            arr[start+p]= mix[p];
+        }
     }
 
 }
