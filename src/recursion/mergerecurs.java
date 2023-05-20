@@ -1,3 +1,4 @@
+package recursion;
 import java.util.Arrays;
  // Implementation of merge sort algorithm using recursion
 public class mergerecurs {
