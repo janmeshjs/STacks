@@ -37,11 +37,4 @@ public class subsetstring {
 
 
 
-for (int i = 1; i<flowerbed.length-1; i++){
-    if (flowerbed[i]==0){
-    if((i == 0 || flowerbed[i-1] == 0) && (i == flowerbed.length-1 || flowerbed[i+1] == 0)){
-        flowerbed[i]=1;
-        count++;
-        }
-    }
-    }
+
