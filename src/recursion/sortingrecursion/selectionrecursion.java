@@ -1,4 +1,4 @@
-package recursion;
+package recursion.sortingrecursion;
 import java.util.*;
 
 //recursive aproach fpr selection sort

@@ -9,8 +9,11 @@ import java.util.List;
 public class permutationrec {
     public static void main(String[] args) {
 
-       ArrayList<String> res= perm("", "abc");
-       System.out.println(res );
+    //    ArrayList<String> res= perm("", "abc");
+    //    System.out.println(res );
+
+    int x = permutationcount("", "abc");
+    System.out.println(x);
     }
 
     public static void permutation(String p, String up){
@@ -47,5 +50,21 @@ public class permutationrec {
         }
         return lis;
 
+    }
+
+
+    public static int permutationcount(String p, String up){
+        if(up.isEmpty()){
+            return 1;
+        }
+        char ch= up.charAt(0);
+        int count=0;
+        for(int i=0; i<=p.length(); i++){
+            String first = p.substring(0, i);
+            String second = p.substring(i, p.length());
+
+            count+=permutationcount(first+ch+second, up.substring(1));
+        }
+        return count;
     }
 }

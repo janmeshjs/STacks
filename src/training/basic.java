@@ -1,3 +1,4 @@
+package training;
 import java.util.Stack;
 
 public class basic {

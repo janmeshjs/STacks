@@ -1,4 +1,4 @@
-package recursion;
+package recursion.sortingrecursion;
 import java.util.*;
 //recursive approach for quick sort
 public class quicksortrecurs{
