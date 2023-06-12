@@ -1,0 +1,16 @@
+
+
+Day 01:  Jun 12 2023
+
+Q1. Compare linkedlist (Hackerrank) 
+https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
+
+Q2. Insertion Sort in linkedlist
+https://leetcode.com/problems/insertion-sort-list/description/
+
+Q3. Reverse a doubly linkedlist
+https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem
+
+Q4. Insert into a Binary Search Tree
+https://leetcode.com/problems/insert-into-a-binary-search-tree/description/
+
