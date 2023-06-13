@@ -5,12 +5,24 @@ Day 01:  Jun 12 2023
 Q1. Compare linkedlist (Hackerrank) 
 https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
 
-Q2. Insertion Sort in linkedlist
+Q2. Insertion Sort in linkedlist (Leetcode)
 https://leetcode.com/problems/insertion-sort-list/description/
 
-Q3. Reverse a doubly linkedlist
+Q3. Reverse a doubly linkedlist (Hackerrank)
 https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem
 
-Q4. Insert into a Binary Search Tree
+Q4. Insert into a Binary Search Tree (Leetcode)
 https://leetcode.com/problems/insert-into-a-binary-search-tree/description/
 
+
+
+Day 02: 
+
+Q1. Reorder list
+https://leetcode.com/problems/reorder-list/
+
+Q2 Partition List
+https://leetcode.com/problems/partition-list/
+
+Q3 Candy Crush 5
+https://www.hackerrank.com/contests/hack-the-interview-v/challenges/candy-crush-4
