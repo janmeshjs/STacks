@@ -9,11 +9,11 @@ import java.util.List;
 public class permutationrec {
     public static void main(String[] args) {
 
-    //    ArrayList<String> res= perm("", "abc");
-    //    System.out.println(res );
+     ArrayList<String> res= perm("", "abc");
+    System.out.println(res );
 
-    int x = permutationcount("", "abc");
-    System.out.println(x);
+    // int x = permutationcount("", "abc");
+    // System.out.println(x);
     }
 
     public static void permutation(String p, String up){
