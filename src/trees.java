@@ -2,7 +2,7 @@ import java.util.* ;
 import java.io.*; 
 import java.util.Scanner;
 
-public class treas {
+public class trees {
 public static final long M = 1000000007;
 
 	
